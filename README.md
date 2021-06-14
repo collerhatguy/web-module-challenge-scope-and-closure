@@ -67,8 +67,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+A closure is created in between the curly brackets every time they are called.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name stays constant but the roll differs on situation.
+
 c. What is the lexical scope of `newRoll`? 
+It may only be referenced inside the function it was called and in functions created inside it.
 
 
 ### Task 3 - Stretch Goals
